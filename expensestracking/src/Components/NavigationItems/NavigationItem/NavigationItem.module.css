@@ -1,0 +1,30 @@
+.navigationitem a {
+  color: rgb(68, 136, 133);
+  font-weight: bold;
+  padding: 0.5rem 0;
+}
+
+.navigationitem a:hover {
+  font-size: 1.4rem;
+  text-decoration: underline;
+}
+
+@media (min-width: 40rem) {
+  .navigationitem a {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    text-decoration: none;
+  }
+
+  .navigationitem a:hover,
+  .navigationitem a:active {
+    font-size: 1.4rem;
+    text-decoration: underline;
+  }
+
+  a.navigation__active {
+    font-size: 1.4rem;
+    text-decoration: underline;
+    color: rgb(68, 136, 133);
+  }
+}

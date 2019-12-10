@@ -1,0 +1,23 @@
+.expense {
+  margin-top: 4.5rem;
+}
+
+.background__image {
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: url(../../Assets/Images/Check-out-how-an-expense-tracking-app-simplifies-reimbursements.jpg);
+  background-size: auto 100%;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  filter: grayscale(40%) blur(3px);
+}
+
+@media (min-width: 40rem) {
+  .background__image {
+    background-size: 100% 100%;
+  }
+}

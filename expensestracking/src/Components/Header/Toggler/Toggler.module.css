@@ -1,0 +1,11 @@
+.togglersymbol {
+  padding: 2px 20px;
+  background: rgb(68, 136, 133);
+  margin: 7px 15px;
+}
+
+@media (min-width: 40rem) {
+  .toggler {
+    display: none;
+  }
+}

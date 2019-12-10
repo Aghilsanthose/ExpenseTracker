@@ -1,0 +1,17 @@
+.navigationitems {
+  box-sizing: border-box;
+  margin-top: 5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 40rem) {
+  .navigationitems {
+    margin-top: 0;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

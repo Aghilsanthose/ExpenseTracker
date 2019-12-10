@@ -1,0 +1,33 @@
+.header {
+  position: fixed;
+  /* padding-top: 10px; */
+  display: flex;
+  background: white;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+  padding: 0.5rem;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  text-align: center;
+  color: rgb(68, 136, 133);
+  margin: 0;
+  font-size: 2rem;
+}
+
+.visible__navigationitems {
+  display: none;
+}
+
+@media (min-width: 40rem) {
+  .header {
+    justify-content: space-between;
+  }
+  .visible__navigationitems {
+    display: block;
+  }
+}

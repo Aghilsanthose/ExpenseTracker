@@ -1,0 +1,48 @@
+.modal {
+  position: fixed;
+  z-index: 15;
+  top: 20%;
+  left: 30%;
+  width: 45%;
+  background: white;
+  padding: 1rem;
+  border: 0.5px solid black;
+  border-radius: 2rem;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  outline: none;
+}
+
+.yes {
+  border-radius: 15px;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  background: rgb(65, 129, 0);
+}
+
+.yes:hover {
+  color: rgb(65, 129, 0);
+  background: white;
+}
+
+.no {
+  border-radius: 15px;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  background: red;
+  color: white;
+}
+
+.no:hover {
+  color: red;
+  background: white;
+}

@@ -1,0 +1,45 @@
+.entrystyle {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  padding: 0 2rem;
+}
+
+select {
+  border-radius: 8px;
+  height: 2.2rem;
+  box-shadow: 2px 2px 2px solid rgb(248, 225, 242);
+}
+
+.individualformitem {
+  margin: 0.2rem 0;
+}
+
+label {
+  font-weight: bold;
+  color: white;
+}
+
+.red {
+  color: red;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px 0;
+  border-radius: 10px;
+  color: rgb(68, 136, 133);
+  background: white;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  color: rgb(207, 207, 207);
+}
+
+@media (min-width: 40rem) {
+  .entrystyle {
+    width: 50%;
+    margin: 1rem auto;
+  }
+}
